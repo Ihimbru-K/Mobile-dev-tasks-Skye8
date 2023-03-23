@@ -42,8 +42,8 @@ class _splashScreenState extends State<splashScreen> {
 
 
               const SizedBox(height: 240,),
-              const Text("from"),
-              Image.asset("assets/images/meta.jpeg",height: 40, alignment: Alignment.bottomLeft,)
+              //const Text("from"),
+              Image.asset("assets/images/logo3.png",height: 40, alignment: Alignment.bottomLeft,)
 
 
 
