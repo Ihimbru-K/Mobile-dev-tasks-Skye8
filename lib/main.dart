@@ -3,6 +3,7 @@ import 'package:whatsapp_splash_screen/screen/Chat%20screen.dart';
 import 'package:whatsapp_splash_screen/screen/Verify.dart';
 import 'package:whatsapp_splash_screen/screen/Welcom.dart';
 import './screen/Splash_Screen.dart';
+import './screen/Community.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-        color: Colors.white, home: dashBoard());
+        color: Colors.white, home: Community());
   }
 }
 
