@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_splash_screen/screen/Chat%20screen.dart';
 import 'package:whatsapp_splash_screen/screen/Verify.dart';
 import 'package:whatsapp_splash_screen/screen/Welcom.dart';
 import './screen/Splash_Screen.dart';
+import 'package:whatsapp_splash_screen/screen/Chats.dart';
+import './screen/Community.dart';
 
 
 void main() { //this is the main function
@@ -18,7 +21,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(color: Colors.white, home: Welcom());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+        color: Colors.white, home: Chats());
   }
 }
 
