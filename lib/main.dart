@@ -5,6 +5,7 @@ import 'package:whatsapp_splash_screen/screen/Welcom.dart';
 import './screen/Splash_Screen.dart';
 import 'package:whatsapp_splash_screen/screen/Chats.dart';
 import './screen/Community.dart';
+import './screen/Status.dart';
 
 
 void main() { //this is the main function
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-        color: Colors.white, home: Chats());
+        color: Colors.white, home: Status());
   }
 }
 
